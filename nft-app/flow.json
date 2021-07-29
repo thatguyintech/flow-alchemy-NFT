@@ -17,11 +17,20 @@
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
 			"key": "b78246c49eee8329c83cf1064a24f93c8f22efbfc6b6b035db445f84d3239835"
-		}
+		},
+    "testnet-account": {
+      "address": "0x2ca684c2732d60e6",
+      "key": "834852224e3c485210f240674fe0316392bb33090bb6981406039a63381d768f"
+    }
 	},
 	"deployments": {
     "emulator": {
       "emulator-account": [
+        "NonFungibleToken"
+      ]
+    },
+    "testnet": {
+      "testnet-account": [
         "NonFungibleToken"
       ]
     }
