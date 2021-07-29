@@ -24,3 +24,4 @@ yarn-error.log*
 
 # flow
 flow.testnet.json
+flow.json
