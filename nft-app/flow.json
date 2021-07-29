@@ -5,7 +5,9 @@
 			"serviceAccount": "emulator-account"
 		}
 	},
-	"contracts": {},
+	"contracts": {
+    "NonFungibleToken": "./contracts/NonFungibleToken.cdc"
+  },
 	"networks": {
 		"emulator": "127.0.0.1:3569",
 		"mainnet": "access.mainnet.nodes.onflow.org:9000",
@@ -17,5 +19,11 @@
 			"key": "b78246c49eee8329c83cf1064a24f93c8f22efbfc6b6b035db445f84d3239835"
 		}
 	},
-	"deployments": {}
+	"deployments": {
+    "emulator": {
+      "emulator-account": [
+        "NonFungibleToken"
+      ]
+    }
+  }
 }
